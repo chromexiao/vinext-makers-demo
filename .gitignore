@@ -1,0 +1,9 @@
+node_modules
+dist
+.edgeone
+.vinext
+.output
+.next
+.env
+.env.*
+*.log
