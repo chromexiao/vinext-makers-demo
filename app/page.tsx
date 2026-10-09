@@ -1,4 +1,5 @@
 import { Counter } from "./counter";
+import deployVideoUrl from "../deepseek-template-deploy-all-en.mov";
 
 export const dynamic = "force-dynamic";
 
@@ -8,6 +9,9 @@ export default function HomePage() {
   return (
     <main>
       <h1>vinext on Makers</h1>
+      <video src={deployVideoUrl} controls preload="none" width={640}>
+        <a href={deployVideoUrl}>deepseek-template-deploy-all-en.mov</a>
+      </video>
       <p>
         Server render: <time dateTime={renderedAt}>{renderedAt}</time>
       </p>
