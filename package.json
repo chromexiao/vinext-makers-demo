@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev --port 3000",
-    "build": "NITRO_PRESET=edgeone_pages vite build"
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vinext start"
   },
   "dependencies": {
     "nitro": "^3.0.260903-beta",
